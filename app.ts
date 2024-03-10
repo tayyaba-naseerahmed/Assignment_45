@@ -1,16 +1,18 @@
-// Crete a variable called alien_color
+// Choose a color for an alien as you 
+//did in Exercise 25, and write an if-else chain.
 let alien_color: string = "green";
 
-// Write an if statement to test whether the alien's color is green. if it is,
-//  print a message that the player just earned 5 points.
+//• If the alien’s color is green, print a statement that 
+//the player just earned 5 points for shooting the alien.
 if(alien_color == "green"){
-    console.log("the player just earned 5 points.");
+    console.log("the player just earned 5 points for shooting the alien.");
+}
+else{ 
+    console.log("the player just earned 10 points.");
+}
+alien_color = "red"; 
+if(alien_color == "green"){
+    console.log("the player just earned 5 points for shooting the alien.");
 }
 
-//• Write one version of this program that passes the if test and another that fails.
-// (The version that fails will have no output.)
 
-alien_color = "red";
-if(alien_color == "green"){
-    console.log("the player just earned 5 points.");
-}
