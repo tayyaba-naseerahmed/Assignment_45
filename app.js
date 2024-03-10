@@ -1,22 +1,15 @@
 "use strict";
-//Make a array of your favorite fruits, and then write a series of independent 
-//if statements that check for certain fruits in your array.
-//• Make a array of your three favorite fruits and call it favorite_fruits.
-//• Write five if statements. Each should check whether a certain kind of fruit is in your array. 
-//If the fruit is in your array, the if block should print a statement,such as You really like bananas!
-let favorite_fruits = ['banana', 'guava', 'mango'];
-if (favorite_fruits.includes('banana')) {
-    console.log('i really like banana.');
-}
-if (favorite_fruits.includes('guava')) {
-    console.log('i really like guava.');
-}
-if (favorite_fruits.includes('mango')) {
-    console.log('i really like mango.');
-}
-if (favorite_fruits.includes('strawberry')) {
-    console.log('i really like strawberry.');
-}
-if (favorite_fruits.includes('orange')) {
-    console.log('i really like orange.');
+// Make a array of five or more usernames, including the name 'admin'. 
+//Imagine you are writing code that will print a greeting to each user after they log in to a website.
+// Loop through the array, and print a greeting to each user:
+//• If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
+//• Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
+let username = ["admin", "aqib", "jehan", "salar", "faris", "hashim"];
+for (var i = 0; i < username.length; i++) {
+    if (username[i] === "Admin") {
+        console.log("hello admin, would you like to see a status report?");
+    }
+    else {
+        console.log("hello" + username[i] + ". thank you for logging in again.");
+    }
 }
