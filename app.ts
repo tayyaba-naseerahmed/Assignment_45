@@ -1,3 +1,11 @@
-let PersonName : string = "ERIC";
+// lowerCase
+let personName: string = "Tayyaba Naseer Ahmed"
+console.log("lowerCase:",personName.toLowerCase());
 
-console.log(`hello ${PersonName} would you like to learn some phyton today?`);
+// upperCase
+console.log("upperCase:",personName.toLocaleUpperCase());
+
+// TilteCase
+console.log("titleCase:",personName.replace (/\bw/g,c => c.toUpperCase()));
+
+
