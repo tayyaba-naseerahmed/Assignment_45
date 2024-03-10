@@ -1,5 +1,4 @@
-//excercise 13 
-let transportation : string []=['civic','bmw','mercedes','ferrari','toyota'];
-for(let i=0; i<transportation.length; i++){
-    console.log(`i would like to own a` + transportation [i]);
+let guest_list: string[]= ['mehmet','umar','mosa','tasmia','uzma'];
+for(let i=0; i<guest_list.length;i++){
+    console.log('Respected Sir/Madam' + guest_list [i] + ',\nWe invite you on dinner tomorrow.\n\nThankyou')
 }
