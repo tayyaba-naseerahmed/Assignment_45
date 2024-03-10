@@ -1,7 +1,10 @@
-function describe_city(city: string, country: string = 'Turkey'){
-        console.log(`${city}  is in ${country}`)
-}
-describe_city('Istanbul');
-describe_city(' Gaza' , 'Palestine');
-describe_city('Karachi' , 'Pakistan');
-   
+function city_country(city: string,country: string) {
+    return (`"${city}, ${country}"`)
+    }
+    let  F1 = city_country('Istanbul' , 'Turkey');
+    let  F2 = city_country('Gaza' , 'Palestine');
+    let  F3 = city_country('Karachi' , 'Pakistan');
+
+    console.log(F1);
+    console.log(F2);
+    console.log(F3);
