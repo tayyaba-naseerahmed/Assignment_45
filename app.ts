@@ -1,15 +1,13 @@
-function sandwich (flavour : string [] ) {
-    console.log('sandwich Order:')
-
-for(let i = 0 ; i < flavour.length ; i++ ) {
-    console.log(`${ flavour [i] }` )
+type car ={
+    manufacture : string ;
+    model : number ;
 }
+
+function cars(manufacture: string, model: number) : car {
+  return {
+    manufacture,
+    model,
+  }
 }
-console.log('This order is for First Customer')
-sandwich([' Grilled chicken', 'olive & cheese']);
-
-console.log('This order is for Second Customer')
-sandwich(['Ice cream','Roasted Beef']);
-
-console.log('This order is for Third Customer')
-sandwich(['club','Panini']);
+let object : car = cars("KIA", 2024)
+console.log(object);

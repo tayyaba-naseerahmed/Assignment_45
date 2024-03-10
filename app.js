@@ -1,13 +1,9 @@
 "use strict";
-function sandwich(flavour) {
-    console.log('sandwich Order:');
-    for (let i = 0; i < flavour.length; i++) {
-        console.log(`${flavour[i]}`);
-    }
+function cars(manufacture, model) {
+    return {
+        manufacture,
+        model,
+    };
 }
-console.log('This order is for First Customer');
-sandwich([' Grilled chicken', 'olive & cheese']);
-console.log('This order is for Second Customer');
-sandwich(['Ice cream', 'Roasted Beef']);
-console.log('This order is for Third Customer');
-sandwich(['club', 'Panini']);
+let object = cars("KIA", 2024);
+console.log(object);
