@@ -1,11 +1,11 @@
 "use strict";
-let favPizzas = ["margherita", "fajita", "texas"];
-console.log("Pizza Names:");
-for (var i = 0; i < favPizzas.length; i++) {
-    console.log(favPizzas[i]);
+let favoriteAnimals = ["cat", "wolf", "lion"];
+console.log("Animal names;");
+for (let i = 0; i < favoriteAnimals.length; i++) {
+    console.log(favoriteAnimals[i]);
 }
-console.log("\nStatements about my favorite pizzas:");
-for (var i = 0; i < favPizzas.length; i++) {
-    console.log("i like " + favPizzas[i] + "pizzas:");
+console.log("\nStatements about each animal:");
+for (let i = 0; i < favoriteAnimals.length; i++) {
+    console.log(" A " + favoriteAnimals[i] + "would make a great pet.");
 }
-console.log("\nI really love pizza!");
+console.log("\nAny of these animals would make a great pet:");
