@@ -1,11 +1,4 @@
-// lowerCase
-let personName: string = "Tayyaba Naseer Ahmed"
-console.log("lowerCase:",personName.toLowerCase());
-
-// upperCase
-console.log("upperCase:",personName.toLocaleUpperCase());
-
-// TilteCase
-console.log("titleCase:",personName.replace (/\bw/g,c => c.toUpperCase()));
-
-
+let quote: string = "Sometimes the people with the worst past,create the best future";
+let famous_person: string = "Umar Bin Khattab";
+let message = `${famous_person} once said, ${quote}`;
+console.log(message);
