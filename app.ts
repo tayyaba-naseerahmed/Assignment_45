@@ -1,18 +1,57 @@
-// Choose a color for an alien as you 
-//did in Exercise 25, and write an if-else chain.
-let alien_color: string = "green";
+// Turn your if-else chain from Exercise 5-4 into an if-else chain.
+//• Write three versions of this program, making sure each message is printed for the appropriate color alien.
 
-//• If the alien’s color is green, print a statement that 
-//the player just earned 5 points for shooting the alien.
-if(alien_color == "green"){
-    console.log("the player just earned 5 points for shooting the alien.");
-}
-else{ 
-    console.log("the player just earned 10 points.");
-}
-alien_color = "red"; 
-if(alien_color == "green"){
-    console.log("the player just earned 5 points for shooting the alien.");
-}
+let alienColors: string = "green";
 
+//• If the alien is green, print a message that the player earned 5 points.
+
+//• If the alien is yellow, print a message that the player earned 10 points.
+
+//• If the alien is red, print a message that the player earned 15 points.
+
+//Version # 1 of the program.
+alienColors =("green");
+
+if (alienColors === "green"){
+    console.log("the player earned 5 Poiints.");
+} 
+else if (alienColors === "yellow"){
+    console.log ("the player earned 10 points.");
+}
+else if(alienColors === "red"){
+    console.log("the player earned 15 points.");
+}
+else {
+    console.log ("please select right color.");
+}
+ //Version 2 of the program.
+ alienColors = "yellow";
+
+ if (alienColors === "green"){
+    console.log("the player earned 5 Poiints.");
+} 
+else if (alienColors === "yellow"){
+    console.log ("the player earned 10 points.");
+}
+else if(alienColors === "red"){
+    console.log("the player earned 15 points.");
+}
+else {
+    console.log ("please select right color.");
+}
+ //Version 3 of the program.
+ alienColors = "red";
+
+ if (alienColors === "green"){
+    console.log("the player earned 5 Poiints.");
+} 
+else if (alienColors === "yellow"){
+    console.log ("the player earned 10 points.");
+}
+else if(alienColors === "red"){
+    console.log("the player earned 15 points.");
+}
+else {
+    console.log ("please select right color.");
+}
 
