@@ -1,11 +1,11 @@
 "use strict";
-let favoriteAnimals = ["cat", "wolf", "lion"];
-console.log("Animal names;");
-for (let i = 0; i < favoriteAnimals.length; i++) {
-    console.log(favoriteAnimals[i]);
+//Write a function called make_shirt() that accepts a size and the
+//text of a message that should be printed on the shirt. The function should print
+//a sentence summarizing the size of the shirt and the message printed on it.
+//Call the function.
+function makeShirt(size, message) {
+    console.log("you have ordered a " + size + "-sized T-shirt.");
 }
-console.log("\nStatements about each animal:");
-for (let i = 0; i < favoriteAnimals.length; i++) {
-    console.log(" A " + favoriteAnimals[i] + "would make a great pet.");
-}
-console.log("\nAny of these animals would make a great pet:");
+makeShirt("Large", "Free Palestine!");
+makeShirt("Medium", "Leve Palestina!");
+makeShirt("small", "Jerusalem!");
