@@ -1,4 +1,4 @@
-let quote: string = "Sometimes the people with the worst past,create the best future";
-let famous_person: string = "Umar Bin Khattab";
-let message = `${famous_person} once said, ${quote}`;
-console.log(message);
+let personName: string = `\n \t TAYYABA NASEER AHMED\t \n `;
+console.log(personName);
+let stripped: string = personName.trim();
+console.log(stripped);
